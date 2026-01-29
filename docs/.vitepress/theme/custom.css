@@ -5,6 +5,10 @@
     border-radius: 8px;
 }
 
+.VPSidebar {
+    padding-bottom: 45px !important;
+}
+
 @media (min-width: 1200px) {
     @media (min-width: 1200px) {
         html:has(body ._guide_action, body ._guide_action) .VPDoc.has-aside .content-container {
