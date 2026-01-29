@@ -26,6 +26,7 @@
 | admin                 | ✅  | 管理员邮箱地址（例如 `admin@example.com`）                |
 | jwt_secret            | ✅  | JWT密钥 随便输入一串字符串，不要输入特殊字符                       |
 
+1. 设置自定义域，添加环境变量
 <img src="../public/images/dashboard/5.png" class="article-img" />
 
 ## 绑定数据库
