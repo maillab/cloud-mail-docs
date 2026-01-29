@@ -1,0 +1,119 @@
+.article-img {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+@media (min-width: 1200px) {
+    @media (min-width: 1200px) {
+        html:has(body ._guide_action, body ._guide_action) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._guide_action, body ._guide_action) {
+            --vp-layout-max-width: 1640px;
+        }
+        html:has(body ._guide_dashboard, body ._guide_dashboard) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._guide_dashboard, body ._guide_dashboard) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._system_sending) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._system_sending) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._system_object-storage) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._system_object-storage) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._system_turnstile) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._system_turnstile) {
+            --vp-layout-max-width: 1640px;
+        }
+        html:has(body ._system_forward) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._system_forward) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._en_guide_action, body ._en_guide_action) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._en_guide_action, body ._en_guide_action) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._en_system_sending) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._en_system_sending) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._en_system_object-storage) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._en_system_object-storage) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._en_system_turnstile) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._en_system_turnstile) {
+            --vp-layout-max-width: 1640px;
+        }
+        html:has(body ._en_system_forward) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._en_system_forward) {
+            --vp-layout-max-width: 1640px;
+        }
+
+        html:has(body ._en_guide_dashboard, body ._en_guide_dashboard) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._en_guide_dashboard, body ._en_guide_dashboard) {
+            --vp-layout-max-width: 1640px;
+        }
+    }
+}
+
+
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+}
+
+
+@media (pointer: fine) and (hover: hover) {
+    /* 整个滚动条 */
+    ::-webkit-scrollbar {
+        width: 6px; /* 垂直滚动条宽度 */
+        height: 6px; /* 水平滚动条高度 */
+    }
+
+    /* 滚动条轨道 */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+
+    /* 滚动条滑块 */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
