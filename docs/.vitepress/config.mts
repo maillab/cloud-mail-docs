@@ -17,7 +17,7 @@ export default defineConfig({
                 nav: [
                     {text: '首页', link: '/'},
                     {text: '文档', link: '/preview/description'},
-                    {text: '捐助 ❤️', link: '/sponsor'},
+                    {text: '捐助 ❤️', link: '/support'},
                     {text: 'v3.0.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
@@ -62,7 +62,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: '捐助 ❤️', link: '/sponsor'
+                        text: '捐助 ❤️', link: '/support'
                     },
                     {
                         text: '联系', link: '/contact'
@@ -91,7 +91,7 @@ export default defineConfig({
                 nav: [
                     { text: 'Home', link: '/en/' },
                     { text: 'Document', link: '/en/preview/description' },
-                    { text: 'Sponsor ️ ❤️', link: '/en/sponsor' },
+                    { text: 'Sponsor ️ ❤️', link: '/en/support' },
                     {text: 'v3.0.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
@@ -130,7 +130,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'Sponsor ❤️', link: '/en/sponsor'
+                        text: 'Sponsor ❤️', link: '/en/support'
                     },
                     {
                         text: 'Contact', link: '/en/contact'
