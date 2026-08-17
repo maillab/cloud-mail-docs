@@ -18,7 +18,7 @@ export default defineConfig({
                     {text: '首页', link: '/'},
                     {text: '文档', link: '/preview/description'},
                     {text: '捐助 ❤️', link: '/support'},
-                    {text: 'v3.0.0', link: 'https://github.com/maillab/cloud-mail/releases'}
+                    {text: 'v3.1.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
@@ -92,7 +92,7 @@ export default defineConfig({
                     { text: 'Home', link: '/en/' },
                     { text: 'Document', link: '/en/preview/description' },
                     { text: 'Sponsor ️ ❤️', link: '/en/support' },
-                    {text: 'v3.0.0', link: 'https://github.com/maillab/cloud-mail/releases'}
+                    {text: 'v3.1.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
