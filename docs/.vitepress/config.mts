@@ -52,7 +52,7 @@ export default defineConfig({
                     {
                         text: '第三方登录',
                         items: [
-                            {text: 'LinuxDo', link: '/oauth2/linuxdo.md'},
+                            {text: 'oauth2', link: '/oauth2/oauth2.md'},
                         ]
                     },
                     {
