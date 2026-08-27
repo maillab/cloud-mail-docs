@@ -24,3 +24,4 @@ dist
 cache
 .wrangler
 .venv
+git-tools.js

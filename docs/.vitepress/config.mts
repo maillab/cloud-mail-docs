@@ -18,7 +18,7 @@ export default defineConfig({
                     {text: '首页', link: '/'},
                     {text: '文档', link: '/preview/description'},
                     {text: '捐助 ❤️', link: '/support'},
-                    {text: 'v3.1.0', link: 'https://github.com/maillab/cloud-mail/releases'}
+                    {text: 'v3.2.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
@@ -46,17 +46,11 @@ export default defineConfig({
                             {text: '对象存储', link: '/system/object-storage'},
                             {text: 'Turnstile', link: '/system/turnstile'},
                             {text: '邮件转发', link: '/system/forward'},
-
+                            {text: 'Oauth2', link: '/oauth2/oauth2.md'},
                         ]
                     },
                     {
-                        text: '第三方登录',
-                        items: [
-                            {text: 'oauth2', link: '/oauth2/oauth2.md'},
-                        ]
-                    },
-                    {
-                        text: '开放 API',
+                        text: 'API 接口',
                         items: [
                             {text: '接口文档', link: '/api/api-doc'},
                         ]
@@ -68,6 +62,10 @@ export default defineConfig({
                         text: '联系', link: '/contact'
                     }
                 ],
+
+                outline: {
+                    level: [2, 3]
+                },
 
                 socialLinks: [
                     {icon: 'github', link: 'https://github.com/maillab/cloud-mail'},
@@ -92,7 +90,7 @@ export default defineConfig({
                     { text: 'Home', link: '/en/' },
                     { text: 'Document', link: '/en/preview/description' },
                     { text: 'Sponsor ️ ❤️', link: '/en/support' },
-                    {text: 'v3.1.0', link: 'https://github.com/maillab/cloud-mail/releases'}
+                    {text: 'v3.2.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
@@ -124,9 +122,9 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'Open API',
+                        text: 'API',
                         items: [
-                            { text: 'Document', link: '/en/api/api-doc' },
+                            { text: 'API Document', link: '/en/api/api-doc' },
                         ]
                     },
                     {
@@ -136,6 +134,10 @@ export default defineConfig({
                         text: 'Contact', link: '/en/contact'
                     }
                 ],
+
+                outline: {
+                    level: [2, 3]
+                },
 
                 socialLinks: [
                     { icon: 'github', link: 'https://github.com/maillab/cloud-mail' },

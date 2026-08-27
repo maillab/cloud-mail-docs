@@ -23,6 +23,12 @@
         html:has(body ._guide_dashboard, body ._guide_dashboard) {
             --vp-layout-max-width: 1640px;
         }
+        html:has(body ._api_api-doc, body ._api_api-doc) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._api_api-doc, body ._api_api-doc) {
+            --vp-layout-max-width: 1640px;
+        }
 
         html:has(body ._system_sending) .VPDoc.has-aside .content-container {
             max-width: 100% !important;
@@ -89,6 +95,12 @@
             max-width: 100% !important;
         }
         html:has(body ._en_guide_dashboard, body ._en_guide_dashboard) {
+            --vp-layout-max-width: 1640px;
+        }
+        html:has(body ._en_api_api-doc, body ._en_api_api-doc) .VPDoc.has-aside .content-container {
+            max-width: 100% !important;
+        }
+        html:has(body ._en_api_api-doc, body ._en_api_api-doc) {
             --vp-layout-max-width: 1640px;
         }
     }
