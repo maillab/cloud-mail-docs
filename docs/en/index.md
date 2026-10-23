@@ -4,36 +4,32 @@ layout: home
 
 hero:
   name: "Cloud Mail"
-  text: ""
-  tagline: "A simple, responsive email service designed to run on Cloudflare Workers 🎉"
+  text: "All-in-One Email Service Platform"
+  tagline: "Get your own email platform up and running quickly on Cloudflare."
   actions:
     - theme: brand
+      text: Quick Start
+      link: /en/guide/quick-start
+    - theme: alt
       text: Live Demo
-      link:  https://skymail.ink
+      link: https://skymail.ink
     - theme: alt
-      text: Dashboard Deployment
-      link: /en/guide/dashboard.md
-    - theme: alt
-      text: Action Deployment
-      link: /en/guide/action.md
+      text: View on GitHub
+      link: https://github.com/maillab/cloud-mail
 
 
 features:
-  - title: 💰 Low-Cost Usage
-    details: No server required — deploy to Cloudflare Workers to reduce costs.
-  - title: 💻 Responsive Design
-    details: Automatically adapts to both desktop and most mobile browsers.
-  - title: 📧 Email Sending
-    details: Integrated with Resend, supporting bulk email sending and attachments.
-  - title: 📈 Data Visualization
-    details: Use ECharts to visualize system data, including user email growth.
-  - title: 🛡️ Admin Features
-    details: Admin controls for user and email management with RBAC-based access control.
-  - title: 📦 Attachment Handling
-    details: Send and receive attachments, stored and downloaded via R2 object storage.
-  - title: 🎨 Personalization
-    details: Customize website title, login background, and transparency.
-  - title: 🤖 CAPTCHA
-    details: Integrated with Turnstile CAPTCHA to prevent automated registration.
+  - icon: 💰
+    title: Low Running Costs
+    details: Keep server costs down by deploying on Cloudflare Workers.
+  - icon: ✉️
+    title: Send Emails
+    details: Send emails through Resend or Cloudflare Email, with support for bulk sending.
+  - icon: 📈
+    title: Data Visualization
+    details: See how your platform is doing in real time with ECharts visualizations.
+  - icon: 💻
+    title: Responsive Design
+    details: A responsive layout that adapts to desktop and most mobile browsers.
 ---
 

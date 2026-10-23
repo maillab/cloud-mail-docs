@@ -1,4 +1,4 @@
-# Other Variables
+# More Variables
 
 | Worker Secret      | Action Secret        | Default                          | Required | Description                                      |
 |--------------------|----------------------|----------------------------------|:--------:|--------------------------------------------------|

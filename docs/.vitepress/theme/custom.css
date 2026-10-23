@@ -9,107 +9,39 @@
     padding-bottom: 45px !important;
 }
 
+.VPHome .VPHero .VPButton.brand {
+    border-color: transparent;
+    color: #fff;
+    background: var(--vp-home-hero-name-background);
+}
+
+.VPHome .VPHero .VPButton.brand:hover {
+    background: linear-gradient(90deg, #0891b2, #2563eb);
+}
+
+.VPHome .VPHero .VPButton.brand:active {
+    background: linear-gradient(90deg, #0e7490, #1d4ed8);
+}
+
 @media (min-width: 1200px) {
-    @media (min-width: 1200px) {
-        html:has(body ._guide_action, body ._guide_action) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._guide_action, body ._guide_action) {
-            --vp-layout-max-width: 1640px;
-        }
-        html:has(body ._guide_dashboard, body ._guide_dashboard) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._guide_dashboard, body ._guide_dashboard) {
-            --vp-layout-max-width: 1640px;
-        }
-        html:has(body ._api_api-doc, body ._api_api-doc) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._api_api-doc, body ._api_api-doc) {
-            --vp-layout-max-width: 1640px;
-        }
+    html:has(.VPDoc) {
+        --vp-layout-max-width: 1640px;
+    }
 
-        html:has(body ._system_sending) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._system_sending) {
-            --vp-layout-max-width: 1640px;
-        }
-
-        html:has(body ._system_object-storage) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._system_object-storage) {
-            --vp-layout-max-width: 1640px;
-        }
-
-        html:has(body ._system_turnstile) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._system_turnstile) {
-            --vp-layout-max-width: 1640px;
-        }
-        html:has(body ._system_forward) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._system_forward) {
-            --vp-layout-max-width: 1640px;
-        }
-
-        html:has(body ._en_guide_action, body ._en_guide_action) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._en_guide_action, body ._en_guide_action) {
-            --vp-layout-max-width: 1640px;
-        }
-
-        html:has(body ._en_system_sending) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._en_system_sending) {
-            --vp-layout-max-width: 1640px;
-        }
-
-        html:has(body ._en_system_object-storage) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._en_system_object-storage) {
-            --vp-layout-max-width: 1640px;
-        }
-
-        html:has(body ._en_system_turnstile) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._en_system_turnstile) {
-            --vp-layout-max-width: 1640px;
-        }
-        html:has(body ._en_system_forward) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._en_system_forward) {
-            --vp-layout-max-width: 1640px;
-        }
-
-        html:has(body ._en_guide_dashboard, body ._en_guide_dashboard) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._en_guide_dashboard, body ._en_guide_dashboard) {
-            --vp-layout-max-width: 1640px;
-        }
-        html:has(body ._en_api_api-doc, body ._en_api_api-doc) .VPDoc.has-aside .content-container {
-            max-width: 100% !important;
-        }
-        html:has(body ._en_api_api-doc, body ._en_api_api-doc) {
-            --vp-layout-max-width: 1640px;
-        }
+    html:has(.VPDoc) .VPDoc.has-aside .content-container {
+        max-width: 100% !important;
+        padding: 0 32px 128px;
     }
 }
 
 
 :root {
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+    --vp-home-hero-name-background: linear-gradient(90deg, #06b6d4, #3b82f6);
+    --vp-c-brand-1: #3490b2;
+    --vp-c-brand-2: #2e809e;
+    --vp-c-brand-3: #28708a;
+    --vp-c-brand-soft: rgba(52, 144, 178, 0.14);
 }
 
 

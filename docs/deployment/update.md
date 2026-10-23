@@ -1,6 +1,6 @@
 # 项目更新
 
-## Action 部署更新
+## GitHub Action 部署更新
 同步仓库代码到最新，GitHub Action 会自动更新部署更新
 
 ## 界面部署更新

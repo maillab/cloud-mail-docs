@@ -1,6 +1,6 @@
 # Project Updates
 
-## Action Deployment Updates
+## GitHub Action Updates
 After syncing the code, GitHub Actions will update automatically.
 
 ## UI Deployment Updates

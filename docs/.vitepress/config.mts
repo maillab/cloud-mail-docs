@@ -16,37 +16,47 @@ export default defineConfig({
                 logo: '/images/logo.png',
                 nav: [
                     {text: '首页', link: '/'},
-                    {text: '文档', link: '/preview/description'},
+                    {text: '文档', link: '/guide/quick-start'},
                     {text: '捐助 ❤️', link: '/support'},
                     {text: 'v3.3.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
                     {
-                        text: '项目预览',
+                        text: '指南',
                         items: [
-                            {text: '项目介绍', link: '/preview/description'},
-                            {text: '更新日志', link: 'https://github.com/maillab/cloud-mail/releases'},
+                            {text: '快速开始', link: '/guide/quick-start'},
                         ]
                     },
                     {
                         text: '部署教程',
                         items: [
-                            {text: '界面部署', link: '/guide/dashboard'},
-                            {text: 'Action 部署', link: '/guide/action'},
-                            {text: '命令部署', link: '/guide/command'},
-                            {text: '其他变量', link: '/guide/environment'},
-                            {text: '项目更新', link: '/guide/update'}
+                            {text: '界面部署', link: '/deployment/dashboard'},
+                            {text: 'GitHub Action 部署', link: '/deployment/action'},
+                            {text: '命令部署', link: '/deployment/command'},
+                            {text: '项目更新', link: '/deployment/update'}
+                        ]
+                    },
+                    {
+                        text: '环境配置',
+                        items: [
+                            {text: '更多变量', link: '/environment/more-variables'},
+                        ]
+                    },
+                    {
+                        text: '邮件发送',
+                        items: [
+                            {text: 'Resend', link: '/sending/resend'},
+                            {text: 'Cloudflare', link: '/sending/cloudflare'},
                         ]
                     },
                     {
                         text: '系统设置',
                         items: [
-                            {text: '邮件发送', link: '/system/sending'},
                             {text: '对象存储', link: '/system/object-storage'},
                             {text: 'Turnstile', link: '/system/turnstile'},
                             {text: '邮件转发', link: '/system/forward'},
-                            {text: 'Oauth2', link: '/oauth2/oauth2.md'},
+                            {text: 'Oauth2', link: '/system/oauth2'},
                         ]
                     },
                     {
@@ -88,37 +98,46 @@ export default defineConfig({
                 logo: '/images/logo.png',
                 nav: [
                     { text: 'Home', link: '/en/' },
-                    { text: 'Document', link: '/en/preview/description' },
+                    { text: 'Document', link: '/en/guide/quick-start' },
                     { text: 'Sponsor ️ ❤️', link: '/en/support' },
                     {text: 'v3.3.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
                     {
-                        text: 'Project Preview',
+                        text: 'Guide',
                         items: [
-                            { text: 'Description', link: '/en/preview/description' },
-                            { text: 'Changelog', link: 'https://github.com/maillab/cloud-mail/releases' },
+                            { text: 'Quick Start', link: '/en/guide/quick-start' },
                         ]
                     },
                     {
                         text: 'Deployment Guide',
                         items: [
-                            { text: 'Dashboard Deployment', link: '/en/guide/dashboard'},
-                            { text: 'Action Deployment', link: '/en/guide/action' },
-                            { text: 'Command Deployment', link: '/en/guide/command' },
-                            {text: 'Other Variables', link: '/en/guide/environment'},
-                            { text: 'Project Updates', link: '/en/guide/update' }
+                            { text: 'Dashboard', link: '/en/deployment/dashboard'},
+                            { text: 'GitHub Action', link: '/en/deployment/action' },
+                            { text: 'Command', link: '/en/deployment/command' },
+                            { text: 'Project Updates', link: '/en/deployment/update' }
+                        ]
+                    },
+                    {
+                        text: 'Environment',
+                        items: [
+                            { text: 'More Variables', link: '/en/environment/more-variables' },
+                        ]
+                    },
+                    {
+                        text: 'Email Sending',
+                        items: [
+                            { text: 'Resend', link: '/en/sending/resend' },
+                            { text: 'Cloudflare', link: '/en/sending/cloudflare' },
                         ]
                     },
                     {
                         text: 'System Settings',
                         items: [
-                            {text: 'Email Sending', link: '/en/system/sending'},
                             {text: 'Object Storage', link: '/en/system/object-storage'},
                             {text: 'Turnstile', link: '/en/system/turnstile'},
                             {text: 'Email Forwarding', link: '/en/system/forward'}
-
                         ]
                     },
                     {

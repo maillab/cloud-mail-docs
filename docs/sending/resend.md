@@ -1,7 +1,4 @@
-# 邮件发送
-:::warning
-Cloudflare 目前不支持发件，封禁25端口，只能使用第三方服务
-:::
+# Resend 邮件发送
 
 1. [注册Resend](https://resend.com/login)，并添加域名，完成DNS验证
 <img src="../public/images/send/1.png" class="article-img">
