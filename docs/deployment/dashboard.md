@@ -5,7 +5,7 @@
 [注册Cloudflare](https://dash.cloudflare.com/)，并添加域名
 
 不会的可以看这个教程：[域名接入Cloudflare](https://cloud.tencent.cn/developer/article/2518586?from=15425&policyId=undefined&traceId=&frompage=seopage)
-<img src="../public/images/action/1.png" class="article-img">
+<img src="../public/images/dashboard/dash.png" class="article-img">
 
 
 ## 创建项目
