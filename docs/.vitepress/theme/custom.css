@@ -36,6 +36,7 @@
 
 
 :root {
+    --vp-nav-logo-height: 28px;
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient(90deg, #06b6d4, #3b82f6);
     --vp-c-brand-1: #3490b2;

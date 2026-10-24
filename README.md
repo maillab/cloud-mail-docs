@@ -1,11 +1,11 @@
 
 ## Description
 
-Cloud Mail 的文档仓库
+Cloud Mail Docs
 
 ## Preview
 
-Live Preview: [https://doc.skymail.ink](https://doc.skymail.ink)
+Live Preview: [https://docs.skymail.ink](https://doc.skymail.ink)
 
 ## Getting Started
 

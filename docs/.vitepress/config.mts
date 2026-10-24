@@ -1,6 +1,38 @@
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
+    themeConfig: {
+        search: {
+            provider: 'local',
+            options: {
+                locales: {
+                    root: {
+                        translations: {
+                            button: {
+                                buttonText: '搜索文档',
+                                buttonAriaLabel: '搜索文档'
+                            },
+                            modal: {
+                                displayDetails: '显示详细列表',
+                                resetButtonTitle: '清除搜索',
+                                backButtonTitle: '关闭搜索',
+                                noResultsText: '没有找到相关结果',
+                                footer: {
+                                    selectText: '选择',
+                                    selectKeyAriaLabel: '回车',
+                                    navigateText: '切换',
+                                    navigateUpKeyAriaLabel: '上箭头',
+                                    navigateDownKeyAriaLabel: '下箭头',
+                                    closeText: '关闭',
+                                    closeKeyAriaLabel: 'Esc'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
     locales: {
         root: {
             head: [
@@ -18,7 +50,7 @@ export default defineConfig({
                     {text: '首页', link: '/'},
                     {text: '文档', link: '/guide/quick-start'},
                     {text: '捐助 ❤️', link: '/support'},
-                    {text: 'v3.3.0', link: 'https://github.com/maillab/cloud-mail/releases'}
+                    {text: 'v3.4.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
@@ -100,7 +132,7 @@ export default defineConfig({
                     { text: 'Home', link: '/en/' },
                     { text: 'Document', link: '/en/guide/quick-start' },
                     { text: 'Sponsor ️ ❤️', link: '/en/support' },
-                    {text: 'v3.3.0', link: 'https://github.com/maillab/cloud-mail/releases'}
+                    {text: 'v3.4.0', link: 'https://github.com/maillab/cloud-mail/releases'}
                 ],
 
                 sidebar: [
