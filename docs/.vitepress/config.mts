@@ -32,7 +32,7 @@ export default defineConfig({
                         text: '部署教程',
                         items: [
                             {text: '界面部署', link: '/deployment/dashboard'},
-                            {text: 'GitHub Action 部署', link: '/deployment/action'},
+                            {text: 'GitHub Action', link: '/deployment/action'},
                             {text: '命令部署', link: '/deployment/command'},
                             {text: '项目更新', link: '/deployment/update'}
                         ]
@@ -137,7 +137,8 @@ export default defineConfig({
                         items: [
                             {text: 'Object Storage', link: '/en/system/object-storage'},
                             {text: 'Turnstile', link: '/en/system/turnstile'},
-                            {text: 'Email Forwarding', link: '/en/system/forward'}
+                            {text: 'Email Forwarding', link: '/en/system/forward'},
+                            {text: 'OAuth2', link: '/en/system/oauth2'}
                         ]
                     },
                     {

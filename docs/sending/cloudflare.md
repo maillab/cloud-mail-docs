@@ -13,3 +13,6 @@
    | email       | EMAIL         |  ✅  | 固定填 `email` |    
 
    <img src="../public/images/sending/cf/cf1.png" class="article-img">
+
+3. 系统设置会开启 Cloudflare Email
+   <img src="../public/images/sending/cf/cf2.png" class="article-img">

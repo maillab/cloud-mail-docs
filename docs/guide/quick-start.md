@@ -6,7 +6,7 @@ Cloud Mail 是一个基于 Cloudflare 的一站式邮件服务平台
 
 ### 🖥️ 部署教程
 - [界面部署](/deployment/dashboard)
-- [GitHub Action 部署](/deployment/action)
+- [GitHub Action](/deployment/action)
 - [命令部署](/deployment/command)
 - [项目更新](/deployment/update)
 

@@ -13,3 +13,6 @@ Sending email this way requires Workers Paid.
    | email               | EMAIL         |    ✅    | Always enter `email` |
 
    <img src="../../public/images/en/sending/cf/cf1.png" class="article-img">
+
+3. Cloudflare Email will be enabled in System Settings.
+   <img src="../../public/images/sending/cf/cf2.png" class="article-img">

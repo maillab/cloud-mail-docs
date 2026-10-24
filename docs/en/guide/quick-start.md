@@ -21,6 +21,7 @@ Cloud Mail is an all-in-one email service platform based on Cloudflare.
 - [Object Storage](/en/system/object-storage)
 - [Turnstile](/en/system/turnstile)
 - [Email Forwarding](/en/system/forward)
+- [OAuth2](/en/system/oauth2)
 
 ### 🔌 API
 - [API Document](/en/api/api-doc)
